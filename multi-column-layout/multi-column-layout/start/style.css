@@ -1,0 +1,8 @@
+
+.main {
+	
+	-webkit-column-gap: 3em;
+	-webkit-column-rule: 2px dotted darkblue;
+	-webkit-columns: 250px 3;
+
+}

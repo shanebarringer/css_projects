@@ -1,0 +1,28 @@
+
+body {
+	perspective: 800px;
+	
+}
+
+.wrap {
+	transtion: transform 1s ease-in-out;
+	transform-style: preserve-3d;
+}
+
+.wrap div {
+	position: absolute;
+
+}
+
+.side-a {
+	z-index: 100;
+
+}
+
+.side-b {
+	transform: rotateY(-180deg);
+}
+
+.wrap:hover {
+	transform: rotateY(180deg);
+}

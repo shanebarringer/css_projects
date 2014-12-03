@@ -1,0 +1,11 @@
+
+.nav {
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-justify-content: space-between;
+
+}
+
+.nav li:first-child {
+	margin-right: auto;
+}

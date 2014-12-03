@@ -1,0 +1,21 @@
+
+.box {
+	/* <--- 
+
+	background-image: url("img/mike.png");
+	background-color:  #f2dfc5;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	code can be summarized into one delcaration ---> */
+
+	background: #E4E4E4 url("img/mike.png") no-repeat scroll center center;
+}
+
+.fixed {
+	background-attachment: fixed;
+}
+
+.local {
+	background-attachment: local;
+}
